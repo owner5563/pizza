@@ -7,7 +7,6 @@ Pizza.prototype.checkPrice = function () {
 return (+this.size) + (+this.toppings);
 }
 
-
 Pizza.prototype.sizeSelect = function () {
 
 var userSize = $("#size").val();
@@ -19,7 +18,6 @@ var userSize = $("#size").val();
     this.size = "12"
   }
 }
-
 
 Pizza.prototype.toppingsSelect = function () {
   var userTopping1 = $("#topping1").val();

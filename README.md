@@ -2,7 +2,7 @@
 
 #### _Website built with JavaScript, bootstrap, and JQuery, 6/15/2018_
 
-#### By _**Kyle Parsons**_s
+#### By _**Kyle Parsons**_
 
 ## Description
 

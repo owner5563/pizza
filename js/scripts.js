@@ -45,7 +45,7 @@ $(document).ready(function() {
     var userSize = $("#size").val();
     var toppingsTotal = (+userTopping1) + (+userTopping2) + (+userTopping3);
     var userPizza = new Pizza (userSize, toppingsTotal)
-    $("#result").text(userPizza.checkPrice(userPizza.sizeSelect(), userPizza.toppingsSelect()));
+    $("#result").text(userPizza.checkPrice(userPizza.sizeSelect(), userPizza.toppingsSelect())).toFixed();
 debugger;
   });
 });

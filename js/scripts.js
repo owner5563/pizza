@@ -26,11 +26,11 @@ Pizza.prototype.toppingsSelect = function () {
   var userTopping2 = $("#topping2").val();
   var userTopping3 = $("#topping3").val();
   var toppingsTotal = (+userTopping1) + (+userTopping2) + (+userTopping3);
-  if (toppingsTotal === "1") {
+  if (toppingsTotal == "1") {
     this.toppings = "1.75"
-  }else if (toppingsTotal === "2") {
+  }else if (toppingsTotal == "2") {
     this.toppings = "3.50"
-  }else if (toppingsTotal === "3") {
+  }else if (toppingsTotal == "3") {
     this.toppings = "5.25"
   }else{
     this.toppings = "0"
